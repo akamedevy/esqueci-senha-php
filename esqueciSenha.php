@@ -33,8 +33,8 @@ switch($_SERVER['REQUEST_METHOD']){
                 $mail->isSMTP();                                          // Configura o envio via SMTP
                 $mail->Host       = 'smtp.gmail.com';                    // Defina o servidor SMTP
                 $mail->SMTPAuth   = true;                                   // Habilita autenticação SMTP
-                $mail->Username   = 'ezspecconta@gmail.com';                  // Usuário SMTP
-                $mail->Password   = 'lzow asnq phpq rftx';                                // Senha SMTP
+                $mail->Username   = '#email';                  // Usuário SMTP
+                $mail->Password   = '#senha';                                // Senha SMTP
                 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         // Habilita criptografia TLS
                 $mail->Port       = 587;                                    // Porta SMTP
             
